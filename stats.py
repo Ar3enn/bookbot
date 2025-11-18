@@ -28,5 +28,5 @@ def display_sorted(file_contents: str):
     chars_list = count_chars(file_contents)
     chars_list.sort(key=get_count, reverse=True)
     for item in chars_list:
-        print(f"{item['char']} : {item['num']}")
+        print(f"{item['char']}: {item['num']}")
 
